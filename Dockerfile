@@ -1,4 +1,4 @@
-FROM ruby:1.7
+FROM ruby:2.7
 
 LABEL maintainer="caue.guedes91@gmail.com"
 
