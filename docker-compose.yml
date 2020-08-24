@@ -8,6 +8,8 @@ services:
     env_file:
       - .env/development/database
       - .env/development/web
+    volumes:
+    - .:/usr/src/app
     tty: true
     stdin_open: true
 
